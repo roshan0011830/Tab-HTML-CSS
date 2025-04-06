@@ -111,3 +111,26 @@ button p {
     margin-bottom: 10px;
 }
 
+
+
+/* Mobile devices (phones) */
+@media (max-width: 600px) {
+    /* Yahan pe tu mobile ke liye styling */
+body {
+    background-color: grey;
+}
+
+.container {
+    width: 80%;
+    height: 66%;
+    box-shadow: 2px 2px 10px black;
+}
+
+h1 {
+    color: #000;
+    text-shadow: 2px 2px 3px grey;
+}
+
+
+  }
+
